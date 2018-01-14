@@ -18,7 +18,7 @@
 
 <body data-spy="scroll" data-target="#navScrollspy">
 
-    <nav class="navbar navbar-dark bg-7690c5 navbar-expand-md fixed-top">
+    <nav class="navbar navbar-dark navbar-expand-md fixed-top navbar-big">
         <div class="container">
             <a class="navbar-brand" href="#">
                 <i class="fas fa-paper-plane"></i> Escape</a>
@@ -29,19 +29,19 @@
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav ml-auto" id="navScrollspy">
                     <li class="nav-item">
-                        <a class="nav-link" href="#section-jumbotron">Home</a>
+                        <a class="nav-link text-uppercase" href="#section-jumbotron">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#section-top">Services</a>
+                        <a class="nav-link text-uppercase" href="#section-top">Services</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#section-clients">Clients</a>
+                        <a class="nav-link text-uppercase" href="#section-clients">Clients</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#section-team">Team</a>
+                        <a class="nav-link text-uppercase" href="#section-team">Team</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#section-contact">Contact</a>
+                        <a class="nav-link text-uppercase" href="#section-contact">Contact</a>
                     </li>
                 </ul>
             </div>
@@ -377,6 +377,19 @@
     <script>
         $(function () {
             var scroll = new SmoothScroll('a[href*="#section-"]');
+        });
+    </script>
+    <script type="application/javascript">
+        $(function () {
+            var navbar = $(".navbar");
+            $(window).scroll(function () {
+                var scroll = $(window).scrollTop();
+                if (scroll >= 100) {
+                    navbar.removeClass('navbar-big', 1000, "easeOutBounce");
+                } else {
+                    navbar.addClass('navbar-big', 1000, "easeOutBounce");
+                }
+            });
         });
     </script>
 </body>

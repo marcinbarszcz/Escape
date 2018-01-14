@@ -11,8 +11,24 @@ h6 {
     font-family: 'Rubik', sans-serif;
 }
 
+.navbar {
+    min-height: 56px;
+    background-color: #000000 !important;
+    transition: all 1s;
+}
+
+.navbar-big {
+    min-height: 100px;
+    background-color: rgba(0, 123, 255, 0) !important;
+    transition: all 1s;
+}
+
 .nav-item {
     font-family: 'Rubik', sans-serif;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    font-size: .8rem;
 }
 
 section {
