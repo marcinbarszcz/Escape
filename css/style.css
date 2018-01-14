@@ -1,0 +1,116 @@
+body {
+    font-family: 'Poiret One', cursive;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Rubik', sans-serif;
+}
+
+.nav-item {
+    font-family: 'Rubik', sans-serif;
+}
+
+section {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.bg-light {
+    background-color: transparent !important;
+}
+
+#section-jumbotron {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.6)), url(../img/main-bg.jpeg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    min-height: 100vh;
+}
+
+.fa-sitemap {
+    color: #e0e0e0;
+}
+
+.fa-users {
+    color: #e0e0e0;
+}
+
+.mb-100 {
+    margin-bottom: 100px;
+}
+
+.mb-7 {
+    margin-bottom: 5rem;
+}
+
+.pb-100 {
+    padding-bottom: 100px;
+}
+
+.pt-100 {
+    padding-top: 100px;
+}
+
+.bg-second {
+    background-color: #fafafa;
+}
+
+.bg-black {
+    background-color: #000;
+}
+
+.social-icon {
+    border: 3px solid #fff;
+    padding: 5px;
+    border-radius: 50%;
+}
+
+.mt-10 {
+    margin-top: 10rem;
+}
+
+.bg-7690c5 {
+    background-color: #7690c5;
+}
+
+blockquote {
+    position: relative;
+    border: 2px solid #f3f3f3;
+}
+
+#section-client-bar {
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+#section-client-bar img {
+    opacity: .4;
+    transition: opacity .3s;
+}
+
+#section-client-bar img:hover {
+    opacity: 1;
+}
+
+footer p {
+    font-size: .8rem;
+    font-family: 'Rubik', sans-serif;
+}
+
+footer hr {
+    opacity: .2;
+}
+
+#section-contact .fa-li {
+    margin-top: -5px;
+}
+
+#section-team img {
+    border: 7px solid #fff;
+    border-radius: 50% !important;
+}
