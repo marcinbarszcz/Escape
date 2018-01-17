@@ -1,5 +1,5 @@
 body {
-    font-family: 'Poiret One', cursive;
+    font-family: 'Ubuntu', sans-serif;
 }
 
 h1,
@@ -72,6 +72,11 @@ section {
     padding-top: 100px;
 }
 
+.px-7 {
+    padding-left: 8em !important;
+    padding-right: 8em !important;
+}
+
 .bg-second {
     background-color: #fafafa;
 }
@@ -113,6 +118,15 @@ blockquote {
     opacity: 1;
 }
 
+#section-contact .fa-li {
+    margin-top: -5px;
+}
+
+#section-team img {
+    border: 7px solid #fff;
+    border-radius: 50% !important;
+}
+
 footer p {
     font-size: .8rem;
     font-family: 'Rubik', sans-serif;
@@ -122,11 +136,36 @@ footer hr {
     opacity: .2;
 }
 
-#section-contact .fa-li {
-    margin-top: -5px;
+footer img {
+    width: 3%;
 }
 
-#section-team img {
-    border: 7px solid #fff;
-    border-radius: 50% !important;
+.card {
+    background-color: transparent;
+    border: 0;
+    border-radius: 0;
+    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.16), 0 1px 5px rgba(0, 0, 0, 0.23);
+}
+
+.card-img-top {
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+}
+
+.card-body {
+    background-color: #ffffff;
+}
+
+.btn-br0 {
+    border-radius: 0 !important;
+}
+
+#section-info {
+    background-color: #E8E9EB;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+#section-info img {
+    width: 5%;
 }
