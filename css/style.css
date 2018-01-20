@@ -41,7 +41,7 @@ section {
 }
 
 #section-jumbotron {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.6)), url(../img/main-bg.jpeg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.7)), url(../img/main-bg.jpeg);
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
@@ -160,6 +160,10 @@ footer img {
     border-radius: 0 !important;
 }
 
+.btn-br50 {
+    border-radius: 50%;
+}
+
 #section-info {
     background-color: #E8E9EB;
     padding-top: 25px;
@@ -167,5 +171,15 @@ footer img {
 }
 
 #section-info img {
+    width: 5%;
+}
+
+#section-work {
+    background-color: #E8E9EB;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+#section-work img {
     width: 5%;
 }

@@ -21,7 +21,7 @@
     <nav class="navbar navbar-dark navbar-expand-md fixed-top navbar-big">
         <div class="container-fluid px-7">
             <a class="navbar-brand" href="#">
-                <i class="fas fa-paper-plane"></i> CE-P</a>
+                <i class="fas fa-paper-plane"></i> CES</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
                 aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -38,10 +38,10 @@
                         <a class="nav-link text-uppercase" href="#section-clients">Szkolenia</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link text-uppercase" href="#section-team">Praca</a>
+                        <a class="nav-link text-uppercase" href="#section-team">O nas</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link text-uppercase" href="#section-team">O nas</a>
+                        <a class="nav-link text-uppercase" href="#section-work">Praca</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link text-uppercase" href="#section-contact">Kontakt</a>
@@ -53,9 +53,11 @@
 
     <section id="section-jumbotron" class="jumbotron jumbotron-fluid text-white d-flex justify-content-center align-items-center mb-0">
         <div class="container text-center">
-            <p class="lead mb-4">Can you build the website of my dreams?</p>
-            <h1 class="display-4 mb-5 font-weight-bold">Yup, we can do that.</h1>
-            <button type="button" class="btn btn-outline-light btn-lg">Learn more</button>
+            <p class="lead mb-4">Specjalistyczne szkolenia oraz doradztwo nie tylko dla firm </p>
+            <h1 class="display-4 mb-5 font-weight-bold">Centrum Edukacyjno szkoleniowe</h1>
+            <a href="#section-top" class="btn btn-outline-light btn-lg mt-5 btn-br50" role="button" aria-pressed="true">
+                <i class="fas fa-chevron-down"></i>
+            </a>
         </div>
     </section>
 
@@ -63,13 +65,13 @@
         <div class="container">
             <div class="row">
                 <div class="col-12 col-md-8">
-                    <h3 class="display-4 mb-5">Web
-                        <span class="font-weight-bold">Developmen</span>
+                    <h3 class="display-4 mb-5">Oferta dla
+                        <span class="font-weight-bold">osób prywatnych</span>
                     </h3>
                     <p class="lead display-6 mb-4">Proin iaculis purus consequat sem cure digni ssim. Donec porttitora entum suscipit aenean rhoncus posuere
                         odio in tincidunt. Proin iaculis purus consequat sem cure digni ssim. Donec porttitora entum suscipit
                         aenean rhoncus posuere odio in tincidunt.</p>
-                    <p class="lead display-6">Iaculis purus consequat sem cure digni ssim. Donec porttitora entum suscipit .</p>
+                    <button type="button" class="btn btn-outline-dark btn-br0 mt-3">Zobacz więcej</button>
                 </div>
                 <div class="col-12 col-md-4 d-flex justify-content-center align-items-center">
                     <i class="fas fa-sitemap fa-10x d-none d-lg-block" data-fa-transform="rotate--90"></i>
@@ -84,13 +86,15 @@
                     <i class="fas fa-users fa-10x d-none d-lg-block"></i>
                 </div>
                 <div class="col-12 col-md-8">
-                    <h3 class="display-4 mb-5">Identity
-                        <span class="font-weight-bold">Branding</span>
+                    <h3 class="display-4 mb-5">Oferta dla
+                        <span class="font-weight-bold">firm</span>
                     </h3>
                     <p class="lead display-6 mb-4">Proin iaculis purus consequat sem cure digni ssim. Donec porttitora entum suscipit aenean rhoncus posuere
                         odio in tincidunt. Proin iaculis purus consequat sem cure digni ssim. Donec porttitora entum suscipit
                         aenean rhoncus posuere odio in tincidunt.</p>
-                    <p class="lead display-6">Iaculis purus consequat sem cure digni ssim. Donec porttitora entum suscipit .</p>
+                    <div class="d-flex justify-content-end">
+                        <button type="button" class="btn btn-outline-dark btn-br0 mt-3">Zobacz więcej</button>
+                    </div>
                 </div>
             </div>
         </div>
@@ -269,24 +273,6 @@
             </div> -->
     </section>
 
-    <!-- <section id="section-info">
-        <div class="container">
-            <div class="row">
-                <div class="col-12 col-md-10">
-                    <div class="media">
-                        <img class="align-self-center mr-3" src="img/course.svg" alt="Course">
-                        <div class="media-body">
-                            <h3 class="mt-0 mb-0 display-5">Nie zwlekaj, zapisz się już dziś na szkolenie !</h3>
-                            <p class="mb-0">Sprawdź promocje pod numerem telefonu : [+48] 777 888 999</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-12 col-md-2 d-flex justify-content-end align-items-center">
-                    <button type="button" class="btn btn-outline-dark btn-br0">Zapisz się !</button>
-                </div>
-            </div>
-    </section> -->
-
     <section id="section-client-bar">
         <div class="container">
             <div class="row">
@@ -314,76 +300,48 @@
         </div>
     </section>
 
-    <section id="section-team" class="bg-black text-white">
+    <section id="section-team" class="bg-second">
         <div class="container">
             <h2 class="display-4 text-center">O
                 <span class="font-weight-bold">Nas</span>
             </h2>
-            <p class="text-center lead mb-7">These wonderful people make work enjoyable.</p>
-            <div class="row text-center">
-                <div class="col-12 col-md-4">
-                    <div class="card bg-black text-white d-flex justify-content-center align-items-center">
-                        <img src="img/man.svg" class="rounded mx-auto d-block w-50" alt="...">
-                        <div class="card-body mb-5">
-                            <h5 class="card-title">Kimberly Thompson</h5>
-                            <p class="card-text">Marketer</p>
-                            <a href="#" class="social-icon mr-2">
-                                <i class="fab fa-twitter fa-fw text-white"></i>
-                            </a>
-                            <a href="#" class="social-icon mr-2">
-                                <i class="fab fa-facebook-f fa-fw text-white"></i>
-                            </a>
-                            <a href="#" class="social-icon">
-                                <i class="fab fa-pinterest-p fa-fw text-white"></i>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-12 col-md-4">
-                    <div class="card bg-black text-white d-flex justify-content-center align-items-center">
-                        <img src="img/girl.svg" class="rounded mx-auto d-block w-50" alt="...">
-                        <div class="card-body mb-5">
-                            <h5 class="card-title">Kimberly Thompson</h5>
-                            <p class="card-text">Marketer</p>
-                            <a href="#" class="social-icon mr-2">
-                                <i class="fab fa-twitter fa-fw text-white"></i>
-                            </a>
-                            <a href="#" class="social-icon">
-                                <i class="fab fa-facebook-f fa-fw text-white"></i>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-12 col-md-4">
-                    <div class="card bg-black text-white d-flex justify-content-center align-items-center">
-                        <img src="img/man1.svg" class="rounded mx-auto d-block w-50" alt="...">
-                        <div class="card-body mb-5">
-                            <h5 class="card-title">Kimberly Thompson</h5>
-                            <p class="card-text">Marketer</p>
-                            <a href="#" class="social-icon mr-2">
-                                <i class="fab fa-twitter fa-fw text-white"></i>
-                            </a>
-                            <a href="#" class="social-icon mr-2">
-                                <i class="fab fa-facebook-f fa-fw text-white"></i>
-                            </a>
-                            <a href="#" class="social-icon">
-                                <i class="fab fa-google-plus-g fa-fw text-white"></i>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-12">
-                    <p class="text-center lead mt-5">Proin iaculis purus consequat sem cure digni ssim donec porttitora entum suscipit aenean rhoncus posuere
-                        odio in tincidunt proin iaculis.</p>
-                </div>
+            <p class="text-justify mt-5">
+                <strong>DM SYSTEM</strong> istnieje już od 1993 roku i jest na rynku dostawcą biznesowych rozwiązań IT obsługujących
+                relacje z klientami i posiada duże doświadczenie w tworzeniu i zarządzaniu różnymi systemami informatycznymi.
+                Głównym atutem firmy jest głęboka wiedza sektorowa, którą przekazujemy naszym klientom w postaci zintegrowanych
+                systemów informatycznych dzięki zatrudnianiu wielu profesjonalnych wykładowców wyższych uczelni kraju.</p>
+            <p class="text-justify mt-5">Celem naszej firmy jest stworzenie społeczności informatycznej, która oprócz zdobywania wiedzy będzie mogła uzyskać
+                pomoc w rozwiązywaniu problemów informatycznych. Jednak szkolenia z dostępem do fachowej pomocy informatycznej
+                oraz profesjonalny serwis internetowy to tylko część z bogatej oferty DM SYSTEM. Kursy kierowane są nie tylko
+                dla firm, ale także dla klientów indywidualnych, a w tym również do osób bezrobotnych. Na tym obszarze rynku
+                firma prowadzi intensywną rekrutację, oferując najlepszym słuchaczom pracę. Firma działa na terenie całej
+                Polski, oferując swoje usługi i szkolenia.</p>
+            <div class="d-flex justify-content-end">
+                <button type="button" class="btn btn-outline-dark btn-br0 mt-5">Zobacz więcej</button>
             </div>
         </div>
     </section>
 
-    <section id="section-contact" class="bg-7690c5 text-white">
+    <section id="section-work">
         <div class="container">
+            <div class="row">
+                <div class="col-12 col-md-9">
+                    <div class="media">
+                        <img class="align-self-center mr-3" src="img/course.svg" alt="Course">
+                        <div class="media-body">
+                            <h3 class="mt-0 mb-0 display-5">Szukasz pracy w zawodzie szkoleniowca??</h3>
+                            <p class="mb-0">Poszukujemy ludzi będących w stanie sprawnie przeprowadzić organizowane przez nas szkolenia.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-3 d-flex justify-content-left align-items-center">
+                    <a href="mailto:zurexx@gmail.com" class="btn btn-outline-secondary btn-br0" role="button" aria-pressed="true">Wyślij CV</a>
+                </div>
+            </div>
+    </section>
+
+    <section id="section-contact" class="bg-7690c5 text-white">
+        <div class="container-fluid px-7">
             <div class="row">
                 <div class="col-12 col-md-6">
                     <div class="row">
@@ -430,7 +388,9 @@
                     </div>
                 </div>
                 <div class="col-12 col-md-6">
-                    <form>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d1264.1627796454277!2d21.392896!3d50.054811!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xd2c81aee39e0f88c!2sGLOBE+TYRE+Sp.+z+o.o.%2C+Sp.+komandytowa!5e1!3m2!1spl!2sus!4v1485504647815"
+                        width="100%" height="300vh" frameborder="0" style="border:0" allowfullscreen=""></iframe>
+                    <!-- <form>
                         <div class="form-group mb-4">
                             <input class="form-control" type="text" placeholder="Imię i nazwisko *">
                         </div>
@@ -444,7 +404,7 @@
                             <button type="submit" class="btn btn-outline-light btn-lg">
                                 <i class="fas fa-paper-plane"></i> Wyślij</button>
                         </p>
-                    </form>
+                    </form> -->
                 </div>
             </div>
         </div>
@@ -460,6 +420,8 @@
         </div>
     </footer>
 
+    <!-- <a id="scrollUp" href="#section-jumbotron" title="Scroll to top"><i class="fas fa-arrow-circle-up fa-2x"></i></a> -->
+
     <!-- Bootstrap core JavaScript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
@@ -467,6 +429,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/js/bootstrap.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/smooth-scroll/12.1.5/js/smooth-scroll.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/scrollup/2.4.1/jquery.scrollUp.min.js"></script>
     <script>
         $(function () {
             var scroll = new SmoothScroll('a[href*="#section-"]');
