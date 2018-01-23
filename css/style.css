@@ -17,6 +17,12 @@ h6 {
     transition: all 1s;
 }
 
+.img-logo {
+    width: 5%;
+    transform: scaleX(-1);
+    transform: rotate(-25deg);
+}
+
 .navbar-big {
     min-height: 100px;
     background-color: rgba(0, 123, 255, 0) !important;
